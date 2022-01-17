@@ -1,0 +1,16 @@
+OUTPUT 1:
+Please enter the number of class held:
+20
+Please enter the number of class attended:
+12
+Your percentage of class attended is: 60.0%
+You are not allowed to sit in exam!
+
+----------------------------------------------
+OUTPUT 2
+Please enter the number of class held:
+20
+Please enter the number of class attended:
+18
+Your percentage of class attended is: 90.0%
+You are allowed to sit in exam!
