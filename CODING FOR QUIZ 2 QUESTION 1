@@ -1,0 +1,33 @@
+package labTest1;
+import java.util.Scanner;
+public class LabTest2 {
+/*A student will not be allowed to sit in an exam if his/her attendance is less than 75%.
+Take the following input from the user:
+a. Number of classes held
+b. The number of classes attended.
+c. Print percentage of class attended, is the student is allowed to sit in exam or not?
+*/
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		double classHeld, classAttend, percentageClassAttend;
+		
+		System.out.println("Please enter the number of class held:");
+		classHeld = sc.nextInt();
+		
+		System.out.println("Please enter the number of class attended:");
+		classAttend = sc.nextInt();
+		
+		percentageClassAttend = (classAttend/classHeld)*100;
+		
+		System.out.println("Your percentage of class attended is: " + percentageClassAttend +"%");
+		
+		if(percentageClassAttend<75)
+			System.out.println("You are not allowed to sit in exam!");
+		
+		else
+			System.out.println("You are allowed to sit in exam!");
+
+	}
+
+}
